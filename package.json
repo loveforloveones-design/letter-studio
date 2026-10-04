@@ -1,0 +1,39 @@
+{
+  "name": "letter-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build",
+    "lint": "tsc --noEmit",
+    "start": "NODE_ENV=production tsx server.ts",
+    "preview": "vite preview --port 3000 --host 0.0.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/nodemailer": "^8.0.2",
+    "express": "^5.2.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "nodemailer": "^10.0.14",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.7.3",
+    "vite": "^8.3.0"
+  }
+}

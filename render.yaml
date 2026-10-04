@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: letter-studio
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+      # Optional: Add your Gmail App Password for direct email sending
+      # - key: SMTP_USER
+      #   value: loveforloveones@gmail.com
+      # - key: SMTP_PASS
+      #   sync: false  # This tells Render to prompt you for the value

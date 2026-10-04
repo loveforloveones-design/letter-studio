@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Gradle (Android - if used)
+.gradle
+.kotlin
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Logs
+*.log
+
+# Lock files (keep package-lock.json, ignore bun.lock)
+bun.lock

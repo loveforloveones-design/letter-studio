@@ -1,0 +1,7 @@
+{
+  "name": "Letterhead & Letter Studio",
+  "description": "Create personalized letterhead documents and heartfelt letters with custom wax seals, tactile stationery textures, standalone shareable receiver links, and direct email delivery in the charming Janapasabi aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
