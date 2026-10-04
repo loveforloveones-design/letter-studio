@@ -218,7 +218,7 @@ app.post('/api/test-smtp', async (req, res) => {
 async function startServer() {
   // Static audio route for Sahiba song
   app.get(['/Sahiba.mp3', '/sahiba.mp3', '/sahiba.mp4', '/Sahiba.mp4'], (_req: Request, res: Response) => {
-    const audioPath = path.resolve(__dirname, 'public', 'Sahiba.mp3');
+    const audioPath = path.resolve(__dirname, 'public', 'sahiba.mp3');
     res.setHeader('Content-Type', 'audio/mpeg');
     res.sendFile(audioPath);
   });
